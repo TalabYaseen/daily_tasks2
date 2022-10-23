@@ -1,0 +1,9 @@
+#t2p1 {
+    color: orange ;
+}
+#t2p3 {
+    background-image: url('./images/background2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

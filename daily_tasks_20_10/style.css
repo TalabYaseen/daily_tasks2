@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(255, 247, 233);
+}
+div {
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    margin: 4px;
+}
+#first_articale {
+    border: solid black ;
+    border-width: 1px;
+}
+#second_articale {
+    border:dashed  black ;
+    border-width: 1px;
+    border-width: 2px;
+}
+#third_articale {
+    border:solid  ;
+    border-width: 1px;
+    color: rgb(89, 21, 154);
+}
+span {
+    background-color: orange;
+}
+p {
+    border: dashed red;
+}
+#t2p1 {
+    color: orange ;
+}
