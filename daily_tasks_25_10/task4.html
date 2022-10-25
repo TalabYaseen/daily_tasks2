@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.grid-container {
+    height: 800px;
+  display: grid;
+  grid: 10% 50% 20% / auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.black {
+    width: 100%;
+    background-color: black;
+    grid-column-end: span 3;
+}
+.orange {
+    grid-column-end: span 2;
+    background-color: rgb(255, 162, 0);
+}
+.green{
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+    grid-column-end: span 3;
+}
+        </style>
+        
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="black"></div>
+            <div class="orange"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+        </div>
+    </body>
+</html>
