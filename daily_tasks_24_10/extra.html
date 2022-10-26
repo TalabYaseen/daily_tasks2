@@ -1,119 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        
+        <meta title="web-page">
         <style>
-
-             body {
+            body {
                 margin-left: 25%;
                 margin-right: 25%; }
-                
-                
-
+            #main_name {
+                font-family: 'Dancing Script', cursive;
+                font-size: 30px;
+                margin-top: 20px; }
+            #logo {
+                float: left;}
+            i {
+                float: right ;
+                margin-top: 0px;
+                margin-left: 10px;
+                font-size: 30px; }
+            #description {
+                margin-top: 0px;
+                font-size: 10px; }
+            #line {
+                height: 3px;
+                border-style: solid none none solid;
+                border-width: 1px;
+                color: black;
+                padding: 0px;
+                margin: 0px;
+                background-color: rgb(232, 228, 228); }
+            #post_date {
+                margin: 0px;
+                color: rgb(166, 153, 80); }
+            #pizza {
+                width: 100%;}
+            .gold_color {
+                color: rgb(166, 153, 80); }
+            #check-ingrediannts {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                /* background-image:url('./images/background2.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                row-gap: 2px;
+                background-color: rgb(146, 98, 98);
+                box-shadow: 2px 2px 2px 2px rgb(176, 174, 174); } 
+            label {
+                background-color: bisque; }
+            #profile p {
+                width: 30%;
+                float: left;}
+            #profile-pic{
+                width: 10%;
+                margin-top: 5%;}
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;}
+            .center-pr {
+                text-align: center;
+                color: rgb(207, 191, 101);}
+            #share {
+                color:white;
+                background-color: red;
+                border: solid black;}
             
-            /* div {
-                height: 200px;
-            } */
-
-#main_name {
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-    margin-top: 20px;
-}
-img {
-    float: left;
-}
-i {
-    float: right ;
-     margin-top: 0px;
-     margin-left: 10px;
-}
-#description {
-    margin-top: 0px;
-    font-size: 10px;
-}
-#conacts{
-    float: right;
-} 
-p {
-    float: left;
-}
-#logo-name {
-    flex-direction: row;
-}
-#name-discription {
-    flex-direction: column;
-}
-hr {
-    border-style:solid none none solid ;
-}
-#line {
-height: 3px;
-border-style: solid none none solid;
-border-width: 1px;
-color: black;
-padding: 0px;
-margin: 0px;
-background-color: rgb(232, 228, 228);
-
-}
-h2 {
-    font-family:monospace;
-    font-weight: 2000px
-}
-#post_date {
-    margin: 0px;
-    color: rgb(166, 153, 80);
-}
-#pizza {
-    width: 100%;
-}
-.gold_color {
-    color: rgb(166, 153, 80);
-}
-#form_con {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    background-image:url('./images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: start;
-    
-}
-#form_container {
-    background-image:url('./images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
         </style>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!-- <div id="header">
-           <div id="logo-name">
-            <img src="./images/restaurant_FILL0_wght400_GRAD0_opsz48.png">
-            <div id="name-discription">
-                <p>Delicious</p>
-                <span>The best food blog in the Wes</span>
-            </div>
-           </div>
-        </div> -->
         <div>
-            <img src="./images/restaurant_FILL0_wght400_GRAD0_opsz48.png">
-            <div><span id="main_name">Delicious</span><i class="fa-brands fa-facebook rig"></i>
+            <img id="logo" src="./images/restaurant_FILL0_wght400_GRAD0_opsz48.png">
+            <div>
+                <span id="main_name">Delicious</span>
+                <i class="fa-brands fa-facebook rig"></i>
                 <i class="fa-brands fa-twitter rig "></i>
                 <i class="fa-brands fa-instagram rig"></i>
                 <i class="fa-brands fa-google-plus-g rig"></i>
-                <i class="fa-solid fa-envelope rig"></i></div>
+                <i class="fa-solid fa-envelope rig"></i>
+            </div>
                 <p id="description" class="gold_color">The best food blog in the Wes</p>
         </div>
         <br><div id="line"></div>
@@ -126,7 +91,7 @@ h2 {
         </p>
         <p class="gold_color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente eum, ut, provident doloribus, accusantium eius quo voluptas tenetur illum fugiat similique perferendis commodi minus labore. Amet quis sequi numquam accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente eum, ut, provident doloribus, accusantium eius quo voluptas tenetur illum fugiat similique perferendis commodi minus labore. Amet quis sequi numquam accusamus.
         </p>
-        <div id="form_con">
+        <div id="check-ingrediannts">
             <input type="checkbox"><label>1 1/2 cups milk</label>
             <input type="checkbox"><label>1/2 mascarpone</label>
             <input type="checkbox"><label>1/2 tbs pink salt </label>
@@ -140,8 +105,16 @@ h2 {
             <input type="checkbox"><label>1 lemon,juiced</label>
             <input type="checkbox"><label>2 tbsp butter</label>
         </div>
-        <div id="form_container">
-            lknz;lfsfk;gf;lgs;lsg;lmgs;l
+        <br><br><div id="line"></div>
+        <div id="profile">
+            <img id='profile-pic' src="./images/profile.jfif">
+            <br>
+            <h3>Talab Hasan Yaseen</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eveniet minima iste asperiores? Vero aspernatur at odio illum dolorem, porro id impedit harum optio quibusdam cupiditate in cumque aliquid eveniet.</p>
         </div>
+        <input id="share" type="button" value="share recipe"><br><br><br><br><br><br><br><br><br>
+        <img class="center" src="./images/restaurant_FILL0_wght400_GRAD0_opsz48.png">
+        <p class="center-pr">Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+        <p class="center-pr">amet consectetur</p>
     </body>
 </html>
